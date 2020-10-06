@@ -1,0 +1,206 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "imageApp/1.0.0": {
+        "dependencies": {
+          "SixLabors.ImageSharp": "1.0.1",
+          "SkiaSharp": "2.80.2-preview.33",
+          "SkiaSharp.NativeAssets.Linux": "2.80.2-preview.33",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.80.2-preview.33",
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "imageApp.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "SkiaSharp/2.80.2-preview.33": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.80.0.0",
+            "fileVersion": "2.80.2.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/2.80.2-preview.33": {
+        "dependencies": {
+          "SkiaSharp": "2.80.2-preview.33"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSkiaSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.80.2-preview.33": {
+        "dependencies": {
+          "SkiaSharp": "2.80.2-preview.33"
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "imageApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DjLoFNdUfsDP7RhPpr5hcUhl1XiejqBML9uDWuOUwCkc0Y+sG9IJLLbqSOi9XeoWqPviwdcDm1F8nKdF0qTYIQ==",
+      "path": "sixlabors.imagesharp/1.0.1",
+      "hashPath": "sixlabors.imagesharp.1.0.1.nupkg.sha512"
+    },
+    "SkiaSharp/2.80.2-preview.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-37Ku88kqLQbyIWO0mjP6m+cKmivbtG4ymUwaXIfLKVE56gu/cZEd+ey120KYuaYhousiTRjpYT0LcaJqdeDJsA==",
+      "path": "skiasharp/2.80.2-preview.33",
+      "hashPath": "skiasharp.2.80.2-preview.33.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/2.80.2-preview.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EUgZROWpsUvyVgvwf89kHYA/SCFEdOy4IVCaXmwGolXTuINV4e/zpNZ6nH0P1UR2o2HwccMx4+P0BAEw+1eovg==",
+      "path": "skiasharp.nativeassets.linux/2.80.2-preview.33",
+      "hashPath": "skiasharp.nativeassets.linux.2.80.2-preview.33.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.80.2-preview.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DmfuwnFBk0faMj4Bg7Nuou/Pj5RjzPNMAdDh10CIW5XKA3lWu6y16xhgdLo0RzModMVfB8KwzqM7jdxgp0Fhhg==",
+      "path": "skiasharp.nativeassets.linux.nodependencies/2.80.2-preview.33",
+      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.80.2-preview.33.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}
